@@ -1,0 +1,11 @@
+name: frontend CI
+
+on: ['push']
+
+jobs:
+	build:
+		runs-on: ubuntu-latest
+		steps:
+			- name:
+				run: npm install
+			- run: npm run build
