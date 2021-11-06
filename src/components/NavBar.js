@@ -2,16 +2,12 @@ import React from "react";
 import book from "../book.svg";
 
 class NavBar extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <nav className="navbar" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
           <a className="navbar-item" href="/">
-            <img src={book} width="112" height="28" />
+            <img src={book} alt="logo" width="112" height="28" />
           </a>
 
           <a

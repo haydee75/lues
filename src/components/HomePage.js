@@ -2,10 +2,6 @@ import React from "react";
 import image1 from "../image1.png";
 
 class HomePage extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <section className="hero is-fullheight-with-navbar">
@@ -29,7 +25,7 @@ class HomePage extends React.Component {
                 </div>
               </div>
               <div className="column is-half">
-                <img src={image1} width="512" height="512" />
+                <img src={image1} alt="demo-img" width="512" height="512" />
               </div>
             </div>
           </div>
