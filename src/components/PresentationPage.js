@@ -1,10 +1,6 @@
 import React from "react";
 
 class PresentationPage extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <section className="hero is-fullheight-with-navbar">
