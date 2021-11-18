@@ -38,7 +38,10 @@ class NavBar extends React.Component {
           <div className="navbar-end">
             <div className="navbar-item">
               <div className="buttons">
-                <a className="button is-info">
+                <a 
+                  className="button is-link"
+                  onClick={() => this.props.showSignInModalOnClick()}
+                >
                   <strong>Sign up</strong>
                 </a>
                 <a className="button is-light">Log in</a>
