@@ -2,6 +2,8 @@ import React from "react";
 
 import axios from 'axios';
 
+import AutoCompleteInputField from './AutoCompleteInputField.js'
+
 export default class SignInModal extends React.Component {
   state = {
     cities: []
@@ -40,6 +42,7 @@ export default class SignInModal extends React.Component {
                 </span>
               </p>
             </div>
+            <AutoCompleteInputField />
             <div className="field">
               <label className="label">City</label>
               <div className="select">
