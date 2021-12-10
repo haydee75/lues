@@ -25,6 +25,15 @@ class NavBar extends React.Component {
             >
               Présentation
             </a>
+            <a
+              className="navbar-item"
+              onClick={() => this.props.showChatPageOnClick()}
+            >
+              <span className="icon">
+                <i className="fas fa-comments"></i>
+              </span>
+              <span>Chat</span>
+            </a>
             <div className="navbar-item has-dropdown is-hoverable">
               <a className="navbar-link">Autre</a>
               <div className="navbar-dropdown">
